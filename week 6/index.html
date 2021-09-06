@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Music Key Signatures</title>
+</head>
+<body>
+    
+<div class="jumbotron jumbotron-fluid text-align-center">
+    <div class="container">
+      <h1>Key Signatures</h1>      
+      <p>How to read and understand keysignatures</p>
+      <img src="images/notes.png" alt="All the notes in music" class="center">
+    </div>
+  </div>
+  
+  <div class="container">
+    <p>Below is a table that lists the proper amount of flats or sharps</p>    
+    <br>  
+    <p>It does not take into account enharmonic keys</p>      
+  </div>
+
+  <table id="myTable" class="table table-bordered table-image">
+    <tr>
+      <th>Key Signature Name</th>
+      <th>Number of Sharps or Flats</th>
+      <th>Notes for Scale</th>
+      <th>Example Song</th>
+    </tr>
+    <tr>
+        
+      <td>C Major</td>
+      <td>No flats or sharps</td>
+      <td>C D E F G A B (C)</td>
+      <td>Let it Be - The Beatles</td>
+    </tr>
+    <tr>
+      <td>D-Flat major</td>
+      <td>Five Flats</td>
+      <td>Db Eb F Gb Ab Bb C (Db)</td>
+      <td>Take a Look at Me Now - Phil Collins</td>
+    </tr>
+    <tr>
+      <td>D Major</td>
+      <td>Two Sharps</td>
+      <td>D E F# G A B C# (D)</td>
+      <td>Everlong - Foo Fighters</td>
+    </tr>
+    <tr>
+      <td>E-Flat Major</td>
+      <td>Three Flats</td>
+      <td>Eb F G Ab Bb C D (Eb)</td>
+      <td>Bohemian Rhapsody - Queen</td>
+    </tr>
+    <tr>
+      <td>E Major</td>
+      <td>Four Sharps</td>
+      <td>E F# G# A B C# D# (E)</td>
+      <td>Cars - Just What I Needed</td>
+    </tr>
+    <tr>
+      <td>F Major</td>
+      <td>One Flat</td>
+      <td>F G A Bb C D E (F)</td>
+      <td>Somebody I Used To Know - Goyte</td>
+    </tr>
+    <tr>
+        <td>G-Flat Major</td>
+        <td>Six Flats</td>
+        <td>Gb Ab Bb Cb Db Eb F (Gb)</td>
+        <td>Dead Man's Party - Oingo Boingo</td>
+    </tr>
+    <tr>
+        <td>G Major</td>
+        <td>One Sharp</td>
+        <td>G A B C D E F# (G)</td>
+        <td>Metallica - Enter Sandman</td>
+    </tr>
+    <tr>
+        <td>A-Flat Major</td>
+        <td>Four Flats</td>
+        <td>Ab Bb C Db Eb F G (Ab)</td>
+        <td>Smells Like Teen Spirit - Nirvana</td>
+    </tr>
+    <tr>
+        <td>A Major</td>
+        <td> Three Sharps</td>
+        <td>A B C# D E F# G# (A)</td>
+        <td>Take On Me - Aha</td>
+    </tr>
+    <tr>
+        <td>B-Flat Major</td>
+        <td>Two Flats</td>
+        <td>Bb C D  Eb F G A (Bb)</td>
+        <td>Purple Rain - Prince</td>
+    </tr>
+    <tr>
+        <td>B Major</td>
+        <td>Five Sharps</td>
+        <td>B C# D# E F# G# A# (B)</td>
+        <td>The Only Exception - Paramore</td>
+    </tr>
+  </table>
+  
+  <footer>
+<h3>There are 15 music keys</h3>
+<p>However, we did not go into enharmonic, which are keys that sound the same, but use flats or sharps.</p>
+<br>
+<p> Questions? Click below to contact me</p>
+
+<div class="container">
+    <h4>Contact info</h4>
+    <!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+      Open contact information
+    </button>
+  
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">May take a while for me to reply</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+         test@gmail.com
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close this portal</button>
+        </div>
+  
+
+  </footer>
+</body>
+</html>
