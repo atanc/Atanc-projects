@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "landscape";
+$dbname = "gameinfo";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
