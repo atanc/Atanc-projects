@@ -1,0 +1,50 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Dec 05, 2020 at 08:16 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.2.33
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `gameinfo`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `game`
+--
+
+CREATE TABLE `game` (
+  `title` varchar(50) NOT NULL,
+  `year` varchar(50) NOT NULL,
+  `platform` varchar(50) NOT NULL,
+  `genre` varchar(50) NOT NULL,
+  `rating` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `game`
+--
+
+INSERT INTO `game` (`title`, `year`, `platform`, `genre`, `rating`) VALUES
+('Kingdom Hearts', '2002', 'PS2', 'Action JRPG', 'E'),
+('Call of Duty Modern Warfare', '2007', 'PC, Xbox 360, PS3', 'First Person Shooter', 'M'),
+('Jak II', '2003', 'PS2', 'Platformer', 'T');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
