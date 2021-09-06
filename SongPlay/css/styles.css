@@ -1,0 +1,72 @@
+
+.imgPlay {
+    width: 50%;
+    display: block;
+    margin: 100px auto;
+    border-radius: 50%;
+    border: 10px solid white;
+    animation: slideDown ease-in 3000ms;
+    animation: infinite spin;
+}
+
+.imgPlay:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 10px solid yellow
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+button {
+    padding: 5px 15px;
+    border: 2px solid gray;
+    background-color: olivedrab;
+    color: white;
+}
+
+button a {
+    text-decoration: unset;
+    color: white;
+}
+
+@keyframes slideDown {
+    from {
+        margin: 0px auto
+    }
+    to {
+        margin: 100px auto
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes spin{
+from { 
+    rotate: (0deg)
+}
+to { rotate: (360deg)}
+}
+
+h4{
+    text-align: center;
+    font-weight: bolder;
+}
+ 
+  
+  pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+  }
